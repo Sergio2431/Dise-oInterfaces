@@ -1,0 +1,63 @@
+/*body {font-weight: bold; color:white;}
+#contenido {
+     Ancho de 700px y centrado en el navegador 
+    width: 700px; margin: auto; height: 250px;
+     Borde sólido y fondo gris claro 
+    border: solid 1px black; background-color: #CCCCCC; }
+
+#cabecera{
+    width: 160px; height: 20px; background-color:#FF0000;
+    border: solid 1px black; margin: 10px;}
+#menu{
+    width: 80px; height: 80px; background-color:#00FF00;
+    border: solid 1px black; margin: 10px; Flotar a la izquierda float: left;}
+#contenido{
+    width: 160px; height: 160px; background-color:#0000FF;
+    border: solid 1px black; margin: 10px; /*Flotar a la izquierda float: left;}
+#pie{
+    width: 160px; height: 20px; background-color:#0F0F0F;
+    border: solid 1px black; margin: 10px; }
+}
+/*Limpiar flotados a la izquierda y a la derecha
+.clearboth{clear: both;}*/
+
+
+body{
+    font-weight: bold;
+    color: white;
+}
+#contenedor{
+    width: 100%;
+    margin: auto;
+    border: solid 1px black;
+    background-color: #CCCCCC;
+}
+#cabecera{
+    width: 98%;
+    background-color: #FF0000;
+    border: solid 1px black;
+    margin: 10px;
+}
+#menu{
+    width: 160px;
+    height: 160px;
+    background-color: #00FF00;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#contenido{
+    width: 800px;
+    height: 500px;
+    background-color: #0000FF;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#pie{
+    width: 98%;
+    background-color: turquoise;
+    border: solid 1px black;
+    margin: 10px;
+    clear: both;
+}
