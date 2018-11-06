@@ -1,0 +1,55 @@
+body{
+    font-weight: bold;
+    color: white;
+}
+#contenedor{
+    width: 100%;
+    margin: auto;
+    border: solid 1px black;
+    background-color: #CCCCCC;
+}
+#cabecera{
+    width: 98%;
+    background-color: #FF0000;
+    border: solid 1px black;
+    margin: 10px;
+}
+#menu{
+    width: 160px;
+    height: 160px;
+    background-color: #0000FF;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#contenido{
+    width: 800px;
+    height: 500px;
+    background-color: #00FF00;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#principal{
+    width: 300px;
+    height: 450px;
+    background-color: #ff01c9;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#secundario{
+    width: 300px;
+    height: 450px;
+    background-color: #ffdb50;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
+#pie{
+    width: 98%;
+    background-color: turquoise;
+    border: solid 1px black;
+    margin: 10px;
+    clear: both;
+}

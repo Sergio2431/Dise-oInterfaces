@@ -1,8 +1,8 @@
 /*body {font-weight: bold; color:white;}
 #contenido {
-     Ancho de 700px y centrado en el navegador 
+     Ancho de 700px y centrado en el navegador
     width: 700px; margin: auto; height: 250px;
-     Borde sólido y fondo gris claro 
+     Borde sólido y fondo gris claro
     border: solid 1px black; background-color: #CCCCCC; }
 
 #cabecera{
@@ -54,18 +54,18 @@ body{
     margin: 10px;
     float: left;
 }
+#secundario{
+    width: 400px;
+    height: 250px;
+    background-color: #0F0F0F;
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+}
 #pie{
     width: 98%;
     background-color: turquoise;
     border: solid 1px black;
     margin: 10px;
     clear: both;
-}
-#secundario{
-    width: 400px;
-    height: 250px;
-    background-color: rgb(238, 196, 11);
-    border: solid 1px black;
-    margin: 10px;
-    float: left;
 }
