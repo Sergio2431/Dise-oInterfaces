@@ -1,0 +1,27 @@
+body {}
+#contenido
+{
+/* Ancho de 700px y centrado en el navegador */
+margin: auto;
+}
+#imagen1
+{
+width: 160px; height: 160px;
+position: absolute;
+top: 200px;
+left: 8px;
+}
+#imagen2
+{
+width: 160px; height: 160px;
+position: absolute;
+top: 8px;
+left: 180px;
+}
+#imagen3
+{
+width: 160px; height: 160px;
+position: absolute;
+top: 8px;
+left: 345px;
+}
