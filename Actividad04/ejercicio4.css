@@ -1,0 +1,52 @@
+body {}
+#contenido
+{
+/* Ancho de 700px y centrado en el navegador */
+margin: auto;
+}
+
+div {
+    position: absolute;
+    border: 2px solid #CCC;
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+    width: 400px;
+    top: 50px;
+    left: 50px;
+    }
+
+#imagen1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;   
+}
+
+#imagen2 {
+    position: absolute;
+    top: 50px;
+    left: 225px;   
+}
+
+#imagen3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;   
+}
+
+#imagen4 {
+    position: absolute;
+    top: 150px;
+    left: 150px;   
+}
+
+#imagen5 {
+    position: absolute;
+    top: 350px;
+    left: 350px;   
+}
+
+#imagen6 {
+    position: absolute;
+    top: 250px;
+    left: 250px;   
+}
