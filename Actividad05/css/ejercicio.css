@@ -1,47 +1,43 @@
-* {
-    padding: 0;
-    margin: 0;
+ 
+  .menu {
+    text-transform: uppercase;
+    color: white;
+    margin-left: 250px;
   }
-  p {
-    margin-bottom:100px;
-  }
-  .wrapper {
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
-  }
-  header {
-    background: rgba(0,0,0,0.9);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  img {
-      align: center;
-      float: left;
-  }
-  
-  nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  }
-  nav ul {
+  .menu ul {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    background-color: black;
+    /*overflow: hidden; /* Limpiamos errores de float */
   }
-  nav ul li {
+  .menu ul li {
     float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    /*font-family: Arial, sans-serif;*/
+    font-size: 20px;
+    margin-right: 0px;
   }
-  nav ul li a {
+  .menu ul li a {
     display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
+    /*padding: 20px;*/
     color: #fff;
     text-decoration: none;
   }
-  nav ul li:hover {
+  .menu ul li a:hover {
     background: #3ead47;
   }
-  .contenido {
+  .menu ul li ul li{
+    display: none;
+  }
+  .menu ul li:hover ul li {
+    display: block;
+  }
+  contenido {
     padding-top: 80px;
   }
