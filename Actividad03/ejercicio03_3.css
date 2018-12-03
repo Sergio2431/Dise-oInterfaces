@@ -1,0 +1,44 @@
+section {
+    float: left;
+  }
+  
+  
+  body {
+    color: #898686
+  }
+  
+  h1 {
+    color: #09065E
+  }
+  #contenedor1 {
+    background-color: #000000
+  }
+  
+  #contenedor2 {
+    background-color: #F5E70B
+  }
+  
+  #contenedor3 {
+    background-color: #000000
+  }
+
+  article img{
+    width: 350px;
+    height: auto;
+  }
+
+  img.joker:hover{
+    transition: all 3s ease;
+    transform: translate(10px, 20px); 
+  }
+
+  img.logo:hover{
+    transition: all 4s ease;
+    transform: scale (.5, 2);
+  }
+
+  img.batman:hover{
+    transition: all 3s ease;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+  }  
