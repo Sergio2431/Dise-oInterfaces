@@ -1,4 +1,4 @@
-  body {
+body {
     background-image: url("../imagenes/fondo.jpg");
   }
 
@@ -58,17 +58,21 @@
   .menu ul li:hover ul li {
     display: block;
   }
-
   contenido {
     padding-top: 80px;
   }
 
-  img {
+  .contenido img {
     margin-top: 3px;
     margin-left: 20px;
     align-content: center;
     width: 1185px;
     height: 500px;
+  }
+
+  .productos img {
+    width: 200px;
+    height: 200px;
   }
 
   h1 {
@@ -77,24 +81,9 @@
     color: rgb(24, 10, 225);
   }
 
-  p {
-    text-align: center;
-  }
-
-  .fotoDescripcion img {
-    margin-top: -50px;
-    float: left;
-    width: 300px;
-    height: 200px;
-  }
-
-  n {
-    margin-left: 82px;
-  }
-
   footer {
     margin-top: 100px;
-    height: 200px;
+    height: 200px; 
     background-color: rgb(1, 67, 78);
   }
 
