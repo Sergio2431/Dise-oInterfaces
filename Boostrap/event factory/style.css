@@ -1,0 +1,9 @@
+#slogan{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 15px;
+}
+#slogan i {
+    font-size: 32px
+    color: #5bc5ed;
+}
