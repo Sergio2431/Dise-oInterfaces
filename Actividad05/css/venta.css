@@ -1,5 +1,5 @@
 body {
-  background-image: url("../imagenes/fondo.jpg");
+  background: linear-gradient(to bottom, rgb(3, 103, 218), white);
 }
 
 .menu img {
@@ -48,7 +48,7 @@ body {
 }
 
 .menu ul li a:hover {
-  background: rgb(9, 185, 185);
+  background:  rgb(211, 103, 3);
 }
 
 .menu ul li ul li {
@@ -57,6 +57,14 @@ body {
 
 .menu ul li:hover ul li {
   display: block;
+}
+
+img {
+  margin-top: 3px;
+  margin-left: 20px;
+  align-content: center;
+  width: 1185px;
+  height: 500px;
 }
 
 .producto {
@@ -71,24 +79,26 @@ body {
   height: 500px;
 }
 
-.productos img {
-  width: 200px;
+.producto img {
+  width: 300px;
   height: 200px;
+  margin-left: 0px;
 }
 
 h1 {
   margin-left: 360px;
   margin-top: 100px;
-  color: rgb(24, 10, 225);
+  color: rgb(223, 28, 28);
 }
 
 .producto {
+  text-align: center;
   float: left;
   width: 33%;
 }
 
 footer {
-  margin-top: 1160px;
+  margin-top: 1530px;
   height: 200px;
   background-color: rgb(1, 67, 78);
 }
@@ -119,4 +129,19 @@ i:hover {
 #copyright {
   margin-top: 50px;
   text-align: center;
+}
+
+iframe{
+  margin-top: -1000px;
+  margin-right: 420px;
+  margin-left: 980px;
+  height: 150px;
+  width: 250px;
+}
+
+#ubicacion{
+  text-align: center;
+  float: right;
+  margin-top: -170px;
+  margin-right: 120px;
 }

@@ -1,5 +1,5 @@
   body {
-    background-image: url("../imagenes/fondo.jpg");
+    background: linear-gradient(to bottom, rgb(3, 103, 218), white);
   }
 
   .menu img {
@@ -48,7 +48,7 @@
   }
 
   .menu ul li a:hover {
-    background: rgb(9, 185, 185);
+    background: rgb(211, 103, 3);
   }
 
   .menu ul li ul li {
@@ -58,10 +58,6 @@
   .menu ul li:hover ul li {
     display: block;
   }
-
-  /*contenido {
-    padding-top: 80px;
-  }*/
 
   img {
     margin-top: 3px;
@@ -74,7 +70,7 @@
   h1 {
     margin-left: 400px;
     margin-top: 100px;
-    color: rgb(24, 10, 225);
+    color: rgb(223, 28, 28);
   }
 
   p {
@@ -120,4 +116,19 @@
   #copyright {
     margin-top: 50px;
     text-align: center;
+  }
+
+  iframe{
+    margin-top: -1000px;
+    margin-right: 420px;
+    margin-left: 980px;
+    height: 150px;
+    width: 250px;
+  }
+
+  #ubicacion{
+    text-align: center;
+    float: right;
+    margin-top: -170px;
+    margin-right: 120px;
   }

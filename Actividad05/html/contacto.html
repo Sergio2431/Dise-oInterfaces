@@ -4,7 +4,9 @@
 
 <head>
     <title>BicisVal</title>
-    <link rel="stylesheet" type="text/css" href="../css/ejercicio.css">
+    <link rel="stylesheet" type="text/css" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
                 <li><a href="venta.html">Venta</a></li>
                 <li><a href="alquiler.html">Alquiler</a></li>
                 <li><a href="taller.html">Taller</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="#">Idioma</a>
                     <ul>
                         <li><a href="inicio.html">Catellano</a></li>
@@ -28,27 +30,61 @@
             </ul>
         </nav>
     </header>
+    <br><br><br><br>
 
 
-    <!--Odio CSS-->
+    <!--CSS Formulario-->
 
     <img src="../imagenes/FotoPrincipal.png" width="900" height="400">
-    
-    
-    <!--Contenido de la página con su formulario-->
-    <h2>Formulario de contacto</h2>
-    
-    <form action="/action_page.php">
-        Nombre:<br>
-        <input type="text" name="Nombre" value="Nombre">
-        <br><br>
-        Apellidos:<br>
-        <input type="text" name="Apellidos" value="Apellidos">
-        <br><br>
-        Deja tu comentario:<br>
-        <textarea name=""></textarea>
-        <br><br>
-        <input type="submit" name="Enviar">
-    </form> 
+
+    <br><br><br>
+
+    <h1>Formulario</h1>
+        
+    <fieldset>
+      <legend><span class="number">1</span><b>Informacion Básica</b></legend>
+      <label for="nombre"><b>Nombre:</b></label>
+      <input type="text" id="name" name="user_name">
+
+      <label for="apellidos"><b>Apellidos:</b></label>
+      <input type="text" id="apellidos" name="user_apellidos">
+
+      <label for="telefono"><b>Telefono:</b></label>
+      <input type="text" id="mail" name="user_telefono">
+      
+      <label for="mail"><b>Email:</b></label>
+      <input type="text" id="mail" name="user_email">
+
+      <label for="consulta"><b>Consulta:</b></label>
+      <textarea name="consulta" id="consulta" cols="30" rows="10">Introduce tu consulta</textarea> 
       
     
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+  
+</body>
+    <footer>
+        <br>
+        <b>
+            <section class="redes">
+                <p>Siguenos en todas nuestras redes sociales:</p>
+            </section>
+        </b>
+        &emsp;<a href="#" id="instagram"><i class="fab fa-instagram fa-2x"></i></a>&emsp;&emsp;&emsp;
+        <a href="#" id="facebook"><i class="fab fa-facebook fa-2x"></i></a>&emsp;&emsp;&emsp;
+        <a href="#" id="twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <b>
+            <p id="copyright">Copyright SergioRuiz</p>
+        </b>
+        <b>
+            <p id="ubicacion">Donde encontrarnos</p>
+        </b>
+        <b>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954005054!2d-0.4149155850177369!3d39.40254662461513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida+Universitaria!5e0!3m2!1ses!2ses!4v1544003060611"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </b>
+    </footer>
+</body>
+
+</html>

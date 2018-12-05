@@ -1,0 +1,259 @@
+body {
+  background: linear-gradient(to bottom, rgb(3, 103, 218), white);
+  }
+
+  .menu img {
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-left: -40px;
+    margin-right: 10px;
+    width: 75px;
+    height: 60px;
+  }
+
+  .menu {
+    text-transform: uppercase;
+    color: white;
+    margin-left: 50px;
+  }
+
+  .menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: black;
+    /*overflow: hidden; /* Limpiamos errores de float */
+  }
+
+  .menu ul li {
+    float: left;
+    width: 185px;
+    height: 55px;
+    background-color: black;
+    opacity: .8;
+    line-height: 55px;
+    text-align: center;
+    /*font-family: Arial, sans-serif;*/
+    font-size: 20px;
+    margin-right: 0px;
+  }
+
+  .menu ul li a {
+    display: block;
+    /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    /*padding: 20px;*/
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu ul li a:hover {
+    background:  rgb(211, 103, 3);
+  }
+
+  .menu ul li ul li {
+    display: none;
+  }
+
+  .menu ul li:hover ul li {
+    display: block;
+  }
+
+  img {
+    margin-top: 3px;
+    margin-left: 20px;
+    align-content: center;
+    width: 1185px;
+    height: 500px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(24, 10, 225);
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .fotoDescripcion img {
+    margin-top: -50px;
+    float: left;
+    width: 300px;
+    height: 200px;
+  }
+
+  n {
+    margin-left: 82px;
+  }
+
+  form{
+      text-align: center;
+  }
+  
+  /*CSS del Formulario*/
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #14171a;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: rgb(223, 28, 28);
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #fa8805;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 5px;
+    width: 20%;
+    border: 1px solid #fa8805;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+    width: 50%;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .number {
+    background-color: #fa8805;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+  /*Fin del CSS del Forulario*/
+
+  footer {
+    margin-top: 56px;
+    height: 200px;
+    background-color: rgb(1, 67, 78);
+  }
+
+  #instagram {
+    color: black;
+    margin-left: 510px;
+  }
+
+  #facebook {
+    color: black;
+    align-content: center;
+  }
+
+  #twitter {
+    color: black;
+    align-content: center;
+  }
+
+  i:hover {
+    color: #fff;
+  }
+
+  #copyright {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  iframe{
+    margin-top: -1000px;
+    margin-right: 420px;
+    margin-left: 980px;
+    height: 150px;
+    width: 250px;
+  }
+
+  #ubicacion{
+    text-align: center;
+    float: right;
+    margin-top: -170px;
+    margin-right: 120px;
+  }
+
