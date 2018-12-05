@@ -1,112 +1,122 @@
 body {
-    background-image: url("../imagenes/fondo.jpg");
-  }
+  background-image: url("../imagenes/fondo.jpg");
+}
 
-  .menu img {
-    color: white;
-    float: left;
-    margin-top: 0px;
-    margin-left: -40px;
-    margin-right: 10px;
-    width: 75px;
-    height: 60px;
-  }
+.menu img {
+  color: white;
+  float: left;
+  margin-top: 0px;
+  margin-left: -40px;
+  margin-right: 10px;
+  width: 75px;
+  height: 60px;
+}
 
-  .menu {
-    text-transform: uppercase;
-    color: white;
-    margin-left: 50px;
-  }
+.menu {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 50px;
+}
 
-  .menu ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    background-color: black;
-    /*overflow: hidden; /* Limpiamos errores de float */
-  }
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: black;
+  /*overflow: hidden; /* Limpiamos errores de float */
+}
 
-  .menu ul li {
-    float: left;
-    width: 185px;
-    height: 55px;
-    background-color: black;
-    opacity: .8;
-    line-height: 55px;
-    text-align: center;
-    /*font-family: Arial, sans-serif;*/
-    font-size: 20px;
-    margin-right: 0px;
-  }
+.menu ul li {
+  float: left;
+  width: 185px;
+  height: 55px;
+  background-color: black;
+  opacity: .8;
+  line-height: 55px;
+  text-align: center;
+  /*font-family: Arial, sans-serif;*/
+  font-size: 20px;
+  margin-right: 0px;
+}
 
-  .menu ul li a {
-    display: block;
-    /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    /*padding: 20px;*/
-    color: #fff;
-    text-decoration: none;
-  }
+.menu ul li a {
+  display: block;
+  /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  /*padding: 20px;*/
+  color: #fff;
+  text-decoration: none;
+}
 
-  .menu ul li a:hover {
-    background: rgb(9, 185, 185);
-  }
+.menu ul li a:hover {
+  background: rgb(9, 185, 185);
+}
 
-  .menu ul li ul li {
-    display: none;
-  }
+.menu ul li ul li {
+  display: none;
+}
 
-  .menu ul li:hover ul li {
-    display: block;
-  }
-  contenido {
-    padding-top: 80px;
-  }
+.menu ul li:hover ul li {
+  display: block;
+}
 
-  .contenido img {
-    margin-top: 3px;
-    margin-left: 20px;
-    align-content: center;
-    width: 1185px;
-    height: 500px;
-  }
+.producto {
+  padding-top: 20px;
+}
 
-  .productos img {
-    width: 200px;
-    height: 200px;
-  }
+.contenido img {
+  margin-top: 3px;
+  margin-left: 20px;
+  align-content: center;
+  width: 1185px;
+  height: 500px;
+}
 
-  h1 {
-    margin-left: 360px;
-    margin-top: 100px;
-    color: rgb(24, 10, 225);
-  }
+.productos img {
+  width: 200px;
+  height: 200px;
+}
 
-  footer {
-    margin-top: 100px;
-    height: 200px; 
-    background-color: rgb(1, 67, 78);
-  }
+h1 {
+  margin-left: 360px;
+  margin-top: 100px;
+  color: rgb(24, 10, 225);
+}
 
-  #instagram {
-    color: black;
-    margin-left: 510px;
-  }
+.producto {
+  float: left;
+  width: 33%;
+}
 
-  #facebook {
-    color: black;
-    align-content: center;
-  }
+footer {
+  margin-top: 1160px;
+  height: 200px;
+  background-color: rgb(1, 67, 78);
+}
 
-  #twitter {
-    color: black;
-    align-content: center;
-  }
+.redes p {
+  text-align: center;
+}
 
-  i:hover {
-    color: #fff;
-  }
+#instagram {
+  color: black;
+  margin-left: 510px;
+}
 
-  #copyright {
-    margin-top: 50px;
-    text-align: center;
-  }
+#facebook {
+  color: black;
+  align-content: center;
+}
+
+#twitter {
+  color: black;
+  align-content: center;
+}
+
+i:hover {
+  color: #fff;
+}
+
+#copyright {
+  margin-top: 50px;
+  text-align: center;
+}
