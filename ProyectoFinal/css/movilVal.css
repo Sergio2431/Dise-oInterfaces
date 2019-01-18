@@ -1,0 +1,55 @@
+   #myCarousel {
+       margin-top: 20px;
+   }
+
+
+  .h1 {
+      text-align: center;
+  }
+
+  footer {
+    margin-top: 100px;
+    height: 200px;
+    background-color: #878a8b;
+  }
+
+  b {
+    color: black;
+    align-content: center;
+  }
+
+  #instagram {
+    color: black;
+  }
+
+  #facebook {
+    color: black;
+  }
+
+  #twitter {
+    color: black;
+  }
+
+  i:hover {
+    color: #fff;
+  }
+
+  #copyright {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  /* iframe{
+    margin-top: -1000px;
+    margin-right: 420px;
+    margin-left: 980px;
+    height: 150px;
+    width: 250px;
+  }
+
+  #ubicacion{
+    text-align: center;
+    float: right;
+    margin-top: -170px;
+    margin-right: 120px;
+  } */
