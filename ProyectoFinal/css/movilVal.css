@@ -1,10 +1,67 @@
-   #myCarousel {
-       margin-top: 20px;
-   }
+  .navbar {
+    margin-bottom: 0;
+  }
+
+  #myCarousel {
+    margin-bottom: 20px;
+  }
+
+  .containerPortada{
+    margin-top: 30px;
+  }
 
   footer {
     height: 200px;
     background-color: #da7e15;
+    margin-top: 50px;
+  }
+
+  .jumbotron {
+    background-image: url(../imagenes/ImagenJumbotron.jpg);
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+
+  .jumbotron h1 {
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .jumbotron p{
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .productos {
+    margin-bottom: 20px;
+  }
+
+  .presentacion iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .enlaces {
+    margin-bottom: 20px;
+  }
+
+  .enlaces h3 {
+    text-align: center;
+  }
+
+  /* .video h2 {
+    text-align: left;
+    margin-left: 110px;
+  }
+
+  .video iframe {
+    margin-left: 50px;
+    width: 500px;
+    height: 300px;
+  } */
+
+  .descripcionVideo {
+    text-align: justify;
   }
 
   b {
@@ -28,11 +85,10 @@
     color: #fff;
   }
 
-  .row {
+  /* .row {
     text-align: center;
-    margin-bottom: 40px;
     margin-right: 20px;
-  }
+  } */
 
   .rowInformacion {
     margin-top: 5px;
@@ -42,14 +98,6 @@
     margin-left: 30px;
     margin-bottom: 40px;
   }
-
-  iframe {
-    margin-bottom: 5px;
-    margin-right: 420px;
-    margin-left: 100px;
-    height: 150px;
-    width: 300px;
-  } 
 
    #ubicacion{
     text-align: center;

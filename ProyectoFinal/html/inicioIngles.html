@@ -16,149 +16,159 @@
 
 <body>
 
-  <div class="container">
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <img src="../imagenes/logo.png" width="40" height="40">
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Inicio</a></li>
-          <li><a href="telefonos.html">Moviles</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
-        </ul>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="../imagenes/logo.png" width="40" height="40">
       </div>
-    </nav>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Start</a></li>
+        <li><a href="telefonos.html">Mobile phones</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+        <li class="dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
+               href="#"
+               role="button"> Language<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="inicio.html">Spanish</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Check in</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+      </ul>
+    </div>
+  </nav>
   </div>
 
 
-  <div class="containerPortada">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="../imagenes/imagenPortada.png" alt="Los Angeles" style="width:100%;">
-        </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-        <div class="item">
-          <img src="../imagenes/imagenPortada.png" alt="Chicago" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="../imagenes/imagenPortada.png" alt="New york" style="width:100%;">
-        </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../imagenes/imagenPortada.png" alt="ImagenMovilPortada" style="width:100%;">
       </div>
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="item">
+        <img src="../imagenes/imagenPortada.png" alt="ImagenMovilPortada" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/imagenPortada.png" alt="ImagenMovilPortada" style="width:100%;">
+      </div>
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
-  <br><br>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Productos Estrella</h1>
-    </div>
+  <div class="jumbotron">
+    <h1>MyMovil</h1>
+    <p>The website where to find your ideal phone will not cost you more than 20 minutes</p>
+  </div>
+
+  <div class="container productos">
+    <h1>Star Products</h1>
     <div class="col-md-4">
-      <img src="../imagenes/ImagenContenido1.jpeg" width="300" height="220">
+      <img src="../imagenes/ImagenContenido1.jpeg" width="300" height="220" alt="ImagenMovil">
       <h3>Chioumi</h3>
-      <p>Breve descripción de las características de esta marca de moviles...</p>
+      <p>Brief description of the characteristics of this mobile brand...</p>
       <button type="button" class="btn btn-info">+Info</button>
     </div>
     <div class="col-md-4">
-      <img src="../imagenes/ImagenContenido2.jpeg" width="300" height="220">
+      <img src="../imagenes/ImagenContenido2.jpeg" width="300" height="220" alt="ImagenMovil">
       <h3>Sonsung</h3>
-      <p>Breve descripción de las características de esta marca de moviles...</p>
+      <p>Brief description of the characteristics of this mobile brand...</p>
       <button type="button" class="btn btn-info">+Info</button>
     </div>
     <div class="col-md-4">
-      <img src="../imagenes/ImagenContenido3.jpeg" width="300" height="220">
+      <img src="../imagenes/ImagenContenido3.jpeg" width="300" height="220" alt="ImagenMovil">
       <h3>IC</h3>
-      <p>Breve descripción de las características de esta marca de moviles...</p>
+      <p>Brief description of the characteristics of this mobile brand...</p>
       <button type="button" class="btn btn-info">+Info</button>
     </div>
-  </div>
+  </div>  
 
-  <br><br>
 
-  <div class="container">
-    <h2>Como comprar en nuestra página</h2>
-    <div class="col-md-6">
-      <iframe width="860" height="315" src="https://www.youtube.com/embed/GQAS0hW9g1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="container presentacion">
+      <h2>How to buy on our page</h2>
+      <div class="col-md-6">
+        <iframe width="860" height="315" src="https://www.youtube.com/embed/GQAS0hW9g1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6 descriptionVideo">
+        <h4>Presentation Video</h4>
+        <p>Hello everyone, here we leave you like to be able to buy in a very simple way on our page.
+          We hope that it will be of great help to you, if you have any doubt or suggestion, you can get in touch
+          Contact us through the Contact tab</p>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h4>Video de Presentación</h4>
-      <p>Hola a todos, aquí os dejamos como poder comprar de manera muy sencilla en nuestra página.
-        Esperamos que os sirva de gran ayuda, si teneis cualquier duda o sugerencia, podeis poneros en
-        Contacto con nosotros mediante la pestaña de Contacto</p>
-    </div>
-  </div>
 
-  <br><br>
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <br><br>
+            <h4>Contact</h4>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <p>Mobile Phone: 677643812</p>
+              </li>
+              <li>
+                <p>Mail: mimovil@gmail.com</p>
+              </li>
+              <li>
+                <p>Fax: 1234312412</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <br>
+            <h4>Follow us in our networks:</h4>
+            <ul class="list-unstyled quick-links">
+              <br>
+              &emsp;<a href="#" id="instagram"><i class="fab fa-instagram fa-2x"></i></a>&emsp;&emsp;&emsp;
+              <a href="#" id="facebook"><i class="fab fa-facebook fa-2x"></i></a>&emsp;&emsp;&emsp;
+              <a href="#" id="twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+            </ul>
+            <br><br>
+            <p>&copy All rights reserved to MiMovil</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h4>Where to find us</h4>
+            <ul class="list-unstyled quick-links">
+              <b>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954005054!2d-0.4149155850177369!3d39.40254662461513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida+Universitaria!5e0!3m2!1ses!2ses!4v1544003060611"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
+              </b>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 </body>
 
-<!-- Footer -->
-<footer>
-  <div class="container">
-    <div class="row text-center text-xs-center text-sm-left text-md-left">
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <br><br>
-        <h4>Contacto</h4>
-        <ul class="list-unstyled quick-links">
-          <li>
-            <p>Telefono: 677643812</p>
-          </li>
-          <li>
-            <p>Correo: mimovil@gmail.com</p>
-          </li>
-          <li>
-            <p>Fax: 1234312412</p>
-          </li>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <br>
-        <h4>Siguenos en nuestras redes:</h4>
-        <ul class="list-unstyled quick-links">
-          <br>
-          &emsp;<a href="#" id="instagram"><i class="fab fa-instagram fa-2x"></i></a>&emsp;&emsp;&emsp;
-          <a href="#" id="facebook"><i class="fab fa-facebook fa-2x"></i></a>&emsp;&emsp;&emsp;
-          <a href="#" id="twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
-        </ul>
-        <br><br>
-        <p>&copy Todos los derechos reservados a MiMovil</p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <h4>Donde encontrarnos</h4>
-        <ul class="list-unstyled quick-links">
-          <b>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954005054!2d-0.4149155850177369!3d39.40254662461513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida+Universitaria!5e0!3m2!1ses!2ses!4v1544003060611"
-              frameborder="0" style="border:0" allowfullscreen></iframe>
-          </b>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
+
 </html>
